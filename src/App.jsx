@@ -1,19 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import daftPunkGif from './assets/daft_punk.gif'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>Привет из React!</h1>
-      <div className="card">
-        <p>Добро пожаловать на React-сайт</p>
-        <button onClick={() => setCount((count) => count + 1)}>
-          Счётчик: {count}
-        </button>
-      </div>
-    </>
+    <div className="app-container">
+      {/*<div className="content">*/}
+        {/*<h1>Привет!</h1>*/}
+      {/*</div>*/}
+    </div>
   )
 }
 
