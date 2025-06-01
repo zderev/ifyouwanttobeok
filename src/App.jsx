@@ -14,12 +14,12 @@ function App() {
           <h1 className="title">ПРОМПРОЕЗД</h1>
           <div className="tagline">тупик, в который <span className="tagline-highlight">хочется въебаться</span></div>
           <div className="subtitle">ELECTRONIC MUSIC EVENT</div>
-          <div className="date">06.06.2025 / НАЛЬЧИК</div>
-          
-          <div className="hero-details">
-            <div className="venue">8-й Промпроезд </div>
-            <div className="time">22:00 — 06:00</div>
-          </div>
+          <div className="date">08.06.2025</div>
+          <div className="venue">Начало в 20:00 </div>
+          {/*<div className="hero-details">*/}
+          {/*  <div className="venue">Начало в 20:00 </div>*/}
+          {/*  <div className="time"></div>*/}
+          {/*</div>*/}
         </section>
       </main>
 
